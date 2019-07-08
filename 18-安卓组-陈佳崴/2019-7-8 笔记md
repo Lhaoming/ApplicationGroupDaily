@@ -1,0 +1,25 @@
+JDK的配置
+---
+在下载JDK后安装JDK后进行了系统变量以及用户变量的配置，对于用户变量，可以简化一些程序的启动，在cmd中可以利用用户变量path来快捷地启动一些程序
+例如java,mysql
+
+git与github的下载与使用
+---
+git下载后安装后便可以直接打开Git bash进行使用，然后便是一些简单的配置。
+创建仓库用的语句：git init
+增加文件进仓库: git add <文件名>      git commit -m "备注".
+
+github的使用主要是在官网注册一个账号并且激活，而后便要将其连接到本地git.
+主要要用到ssk秘钥.
+在git bash中输入 ssj ssh-keygen -t rsa   再输入三次回车后便可以再文件加中找到id_dsa跟id_dsa.pub文件
+其中将pub文件打开并且将内容复制到github官网里的秘钥处新建一个秘钥即可。
+然后再git bash输入git remote add origin git@github.com:yourName/yourRepo.git
+便可以连接git跟github.
+
+
+git 文件再利用 git push origin master 语句将文件上传到github即可。
+其中要先用 git pull 语句将两个平台文件整理一致。
+
+最后便是github的文件合并功能。
+首先要找到想合并的repo，然后点击fork复制镜像.
+然后修改镜像repo，再点击pull request，按照绿色按钮点击即可.
