@@ -20,7 +20,6 @@ github的使用主要是在官网注册一个账号并且激活，而后便要�
 git 文件再利用 git push origin master 语句将文件上传到github即可。
 其中要先用 git pull 语句将两个平台文件整理一致。
 
-
 最后便是github的文件合并功能。
 首先要找到想合并的repo，然后点击fork复制镜像.
 然后修改镜像repo，再点击pull request，按照绿色按钮点击即可.
