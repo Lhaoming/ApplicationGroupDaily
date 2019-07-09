@@ -75,4 +75,5 @@ exit :退出dos命令行
 ##### 7、Java语言的三种技术架构  
 ①J2EE（Java 2 Platform Enterprise Edition）企业版：是为开发企业环境下的应用程序提供的一套解决方案，技术体系中包含技术如  Serviet Jsp等主要针对Web应用程序开发  
 ②J2SE（Java 2 Platform Standard Edition ） 标准版：是为开发普通桌面和商务应用程序提供解决方案（该技术是其他两者的基础）（Java版的扫雷）  
-③J2ME（Java 2 Platform Micro Edition）小型版：是为开发电子消费产品和嵌入式设备提供的解决方案（手机中的应用程序）
+③J2ME（Java 2 Platform Micro Edition）小型版：是为开发电子消费产品和嵌入式设备提供的解决方案（手机中的应用程序）  
+
